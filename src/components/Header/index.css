@@ -1,0 +1,12 @@
+.he-wrapper {
+  display: flex;
+  align-items: center;
+  height: 130px;
+  margin-left: 130px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: Raleway;
+  color: rgb(137, 215, 39);
+
+  font-weight: bold;
+}

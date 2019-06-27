@@ -1,0 +1,119 @@
+.cd-wrapper {
+  height: 280px;
+  width: 295px;
+  /* background-color: #ffffff; */
+  box-shadow: 1px 1px 7px 1px #3b434e;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.cd-wrapper-background {
+  height: 280px;
+  width: 295px;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  position: absolute;
+}
+
+.cd-status-icon-wrapper {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.cd-status-circle {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: rgb(69, 219, 58);
+  animation-name: border-ripple;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border: 1px solid rgb(215, 248, 214);
+  box-shadow: 0px 0px 0px 8px rgb(215, 248, 214);
+}
+
+@keyframes border-ripple {
+  0% {
+    box-shadow: 0px 0px 0px 0px rgb(215, 248, 214);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 7px rgb(215, 248, 214);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px rgb(215, 248, 214);
+  }
+}
+
+/* this css if for showing tick inside status-cirlce */
+.cd-status-tick {
+  position: absolute;
+  top: 14px;
+  left: 23px;
+  height: 25px;
+  width: 12px;
+  border-right: 7px solid white;
+  border-bottom: 7px solid white;
+  border-radius: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari 3-8 */
+  transform: rotate(45deg);
+}
+
+.cd-content-wrapper {
+  /* border: 1px solid red; */
+  position: relative;
+  margin: 3px 30px 0px 30px;
+  /* margin-top: -10px; */
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.cd-maincontent {
+  /* border: 1px solid red; */
+  color: rgb(3, 3, 3);
+  font-size: 23px;
+  font-weight: bold;
+  font-family: LatoRegularFont;
+  letter-spacing: 1px;
+  /* border: 1px solid red; */
+}
+
+.cd-subcontent {
+  /* border: 1px solid red; */
+  font-family: Roboto;
+  margin-top: 6px;
+  padding: 0 10px 0 10px;
+  color: rgb(143, 143, 143);
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.cd-maincontent-capital {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.cd-continue-btn {
+  cursor: pointer;
+  background-color: rgb(69, 219, 58);
+  height: 32px;
+  color: white;
+  font-family: MontserratFontBold;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 7px 1px rgb(199, 233, 198);
+}
