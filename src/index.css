@@ -4,6 +4,7 @@
 /* rgb(248, 53, 53); dark red */
 /* linear-gradient(to right, #1fad9a 10%, #13cc60); blue green */
 /* linear-gradient(to topright, #89b2f7, #dc84f7); blue green */
+/* rgb(1,161,154) bluish green */
 
 html {
   height: 100%;
@@ -29,28 +30,33 @@ body {
 }
 
 @font-face {
+  font-family: MontserratFont;
+  src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: MontserratFontLight;
+  src: url("./assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: MontserratFontBold;
+  src: url("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
   font-family: LatoFont;
   src: url("./assets/fonts/Lato/Lato-Light.ttf");
 }
 
 @font-face {
-  font-family: MontserratFont;
-  src: url("./assets/fonts//Montserrat/Montserrat-Regular.ttf");
-}
-
-@font-face {
-  font-family: MontserratFontLight;
-  src: url("./assets/fonts//Montserrat/Montserrat-Light.ttf");
-}
-
-@font-face {
-  font-family: MontserratFontBold;
-  src: url("./assets/fonts//Montserrat/Montserrat-SemiBold.ttf");
-}
-
-@font-face {
   font-family: LatoRegularFont;
-  src: url("./assets/fonts//Lato//Lato-Regular.ttf");
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url("./assets/fonts/Lato/Lato-Bold.ttf");
 }
 
 @font-face {
